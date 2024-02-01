@@ -1,4 +1,4 @@
-# Ionic Framework
+# 아이오닉 🔖
 <img width="700" alt="Untitled" src="https://github.com/kihyuni1207/ionic_study/assets/127191624/7dab73cb-4de3-451e-9064-4ed9ad497fa9">
 
 ## 내가 Frontend 개발자라면  웹 앱 둘다 알아야 한다
