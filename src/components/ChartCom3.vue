@@ -14,7 +14,7 @@ import Highcharts from 'highcharts';
 
 export default {
   setup() {
-    let startYear = 1965;
+    const startYear = 1965;
     const endYear = 2020;
     const playButton = ref(null);
     const rangeInput = ref(null);

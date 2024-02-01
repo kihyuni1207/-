@@ -7,9 +7,7 @@
 <script>
 import {ref, onMounted} from 'vue';
 import Highcharts from 'highcharts';
-import accessibility from 'highcharts/modules/accessibility';
 
-accessibility(Highcharts);
 
 export default {
   setup() {

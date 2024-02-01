@@ -4,19 +4,25 @@
       <ion-router-outlet></ion-router-outlet>
       <ion-tab-bar slot="bottom">
         <ion-tab-button tab="tab1" href="/tabs/tab1">
-          <ion-icon :icon="triangle" />
-          <ion-label>Tab 1</ion-label>
+          <ion-icon aria-hidden="true" :icon="triangle" />
+          <ion-label>인사이트</ion-label>
         </ion-tab-button>
 
         <ion-tab-button tab="tab2" href="/tabs/tab2">
-          <ion-icon :icon="images" />
-          <ion-label>Photos</ion-label>
+          <ion-icon aria-hidden="true" :icon="ellipse" />
+          <ion-label>사진</ion-label>
         </ion-tab-button>
 
         <ion-tab-button tab="tab3" href="/tabs/tab3">
           <ion-icon :icon="square" />
-          <ion-label>Tab 3</ion-label>
+          <ion-label>알람</ion-label>
         </ion-tab-button>
+
+        <ion-tab-button tab="tab4" href="/tabs/tab4">
+          <ion-icon aria-hidden="true" :icon="aperture" />
+          <ion-label>교보생명 인사이트 화면</ion-label>
+        </ion-tab-button>
+
       </ion-tab-bar>
     </ion-tabs>
   </ion-page>
@@ -24,5 +30,5 @@
 
 <script setup lang="ts">
 import { IonTabBar, IonTabButton, IonTabs, IonLabel, IonIcon, IonPage, IonRouterOutlet } from '@ionic/vue';
-import { images, square, triangle } from 'ionicons/icons';
+import {aperture, ellipse, square, triangle} from 'ionicons/icons';
 </script>

@@ -12,12 +12,14 @@
           <ion-input v-model="password" type="password" placeholder="Password" @keyup.enter="login"></ion-input>
           <!-- @keyup.enter 이벤트를 사용하여 Enter 키를 눌렀을 때 login 함수를 호출 -->
         </ion-item>
-        <ion-button expand="full" shape="round" @click="login" :disabled="isLoading" class="login-button">Login</ion-button>
+        <ion-button expand="full" shape="round" @click="login" :disabled="isLoading" class="login-button">Login
+        </ion-button>
         <ion-spinner style="margin-top:-100px;font-weight: bold;color: #00a9ff;" v-if="isLoading"></ion-spinner>
       </div>
 
       <!-- 로그인 성공 및 실패 모달 -->
-      <ion-modal v-if="showModal" :is-open="showModal" @ionModalDidDismiss="showModal = false" style="margin-top: 350px;">
+      <ion-modal v-if="showModal" :is-open="showModal" @ionModalDidDismiss="showModal = false"
+                 style="margin-top: 350px;">
         <div class="modal-content">
           <ion-text class="modal-text">{{ modalMessage }}</ion-text>
           <ion-button expand="full" @click="closeModal" class="modal-button">OK</ion-button>
@@ -29,19 +31,16 @@
 </template>
 
 <script lang="ts">
-import { defineComponent, ref } from 'vue';
-import { IonInput, IonItem, IonPage, IonToolbar, IonHeader, IonTitle, IonButton, IonContent, IonSpinner, IonImg, IonModal, IonText } from '@ionic/vue';
+import {defineComponent, ref} from 'vue';
+import {IonInput, IonItem, IonPage, IonButton, IonContent, IonSpinner, IonModal, IonText} from '@ionic/vue';
 import router from '@/router'; // Vue Router 설정 가져오기
 
 export default defineComponent({
+  name: "LoginView",
   components: {
     IonInput,
-    IonImg,
     IonItem,
     IonPage,
-    IonToolbar,
-    IonHeader,
-    IonTitle,
     IonButton,
     IonContent,
     IonSpinner,
