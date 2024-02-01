@@ -1,4 +1,7 @@
 # Ionic 🔖
+
+### 🍏로직은 올려놓았으니 확인해보세요~ </span>
+
 <img width="700" alt="Untitled" src="https://github.com/kihyuni1207/ionic_study/assets/127191624/7dab73cb-4de3-451e-9064-4ed9ad497fa9">
 
 ## 내가 Frontend 개발자라면  웹 앱 둘다 알아야 한다
@@ -83,7 +86,6 @@
 <img width="700" alt="Untitled13" src="https://github.com/kihyuni1207/ionic_study/assets/127191624/0b46413a-70bd-4a9c-a0ff-eb96a3bee729">
 
 ### 이제 만들어 보자..
-### 🍏로직은 올려놓았으니 확인해보세요~ </span>
 
 ### Ionic + vue3 개발 진행
 
