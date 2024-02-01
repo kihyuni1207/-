@@ -83,7 +83,7 @@
 <img width="700" alt="Untitled13" src="https://github.com/kihyuni1207/ionic_study/assets/127191624/0b46413a-70bd-4a9c-a0ff-eb96a3bee729">
 
 ### 이제 만들어 보자..
-### 로직은 올려놓았으니 확인해보세요~
+### 🍏로직은 올려놓았으니 확인해보세요~ </span>
 
 ### Ionic + vue3 개발 진행
 
