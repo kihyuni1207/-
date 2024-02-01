@@ -1,4 +1,4 @@
-# Ionic 공부 내용 및 직접 실행 로직
+# Ionic
 <img width="700" alt="Untitled" src="https://github.com/kihyuni1207/ionic_study/assets/127191624/7dab73cb-4de3-451e-9064-4ed9ad497fa9">
 
 ## 내가 Frontend 개발자라면  웹 앱 둘다 알아야 한다
